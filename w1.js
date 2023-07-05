@@ -1,35 +1,27 @@
-//In Javasript, we can declare a variable in 3 ways
-//1.by using var
-//2.by using let 
-//3.by using const
 
 const myName = [];
 console.log(myName);
 myName.push("John")
 console.log(myName);
 
------------------------------------------------------------------------------------
 
 let myName = "John";
 console.log(myName);
 myName = "Alex";
 console.log(myName);
 
---------------------------------------------------------------------------------------------
 
 {
     var num = 5;
     console.log(num);
 }
 
-----------------------------------------------------------
 
 //String Interpolation
 let firstName = "Ram";
 let lastName = "Setu";
 console.log(firstName + " " + lastName);
 
----------------------------------------------------------------------------
 
 let firstName = "Ram";
 let lastName = "Setu";
@@ -37,7 +29,6 @@ let fullName = '${firstName} ${lastName}';
 console.log(fullName);
 console.log(firstName);\
 
---------------------------------------------------------------------------------
 
 //Default paramas
 let addTwoNumbers(num1, num2) {
@@ -52,7 +43,6 @@ let addTwoNumbers = (num1 + num2) => {
 };
 console.log(addTwoNumbers(1,2));
 
-----------------------------------------------------------------------------------
 
 //Rest and Spread operator are applicable in Arrays and Object in Javascript
 //Rest -> ...
@@ -60,8 +50,6 @@ console.log(addTwoNumbers(1,2));
 let array = [5,10,15,20,25];
 let newArray = [ ...array];
 console.log(array);
-
-------------------------------------------------------------------------------------------------
 
 //For object
 let object = {
@@ -72,7 +60,6 @@ let object = {
 let object2 = {...object, country: "USA"};
 console.log(object2);
 
------------------------------------------------------------------------------------------
 
 let object = {
     name: "John",
