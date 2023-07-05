@@ -27,7 +27,7 @@ let firstName = "Ram";
 let lastName = "Setu";
 let fullName = '${firstName} ${lastName}';
 console.log(fullName);
-console.log(firstName);\
+console.log(firstName);
 
 
 //Default paramas
